@@ -37,9 +37,7 @@ public class QuickUnionDemo {
 	}
 	
 	public boolean connected(int p, int q){
-		int i = root(p);
-		int j = root(q);
-		return i ==j;
+		return root(p) == root(q);
 	}
 	
 	public static void main(String[] args) {
