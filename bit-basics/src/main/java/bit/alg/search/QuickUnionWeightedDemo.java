@@ -14,7 +14,7 @@ public class QuickUnionWeightedDemo {
 		size = new int[length];
 		for (int i = 0; i < array.length; i++) {
 			array[i] = i;
-			size[i] = i;
+			size[i] = 1;
 		}
 	}
 
@@ -59,15 +59,16 @@ public class QuickUnionWeightedDemo {
 	}
 
 	public static void main(String[] args) {
-		QuickUnionDemo qu = new QuickUnionDemo(10);
+		QuickUnionWeightedDemo qu = new QuickUnionWeightedDemo(10);
 		print(qu.array);
 		qu.union(4, 5);
 		qu.union(5, 3);
 		qu.union(3, 6);
-		qu.union(4, 9);
+		qu.union(1, 9);
 		print(qu.array);
 		System.out.println(qu.connected(4, 6));
 		System.out.println(qu.connected(4, 9));
+		print(qu.size);
 	}
 
 	public static void print(int print[]) {
