@@ -4,9 +4,10 @@ package bit.alg.search;
  * 
  * @author phanidhar
  * This is used for dynamic connectivity problem ,
- * union (p,q) -> connected p and q nodes , p array values will be replaced by q array value
+ * union (p,q) -> connected p and q nodes , p array all values will be replaced by q array value
  * connected(p,q) -> verifies the connected between p and q nodes
  * This algorithm is used to find out the path exist in between two nodes ,dynamic connectivity problem
+ * finding connections between two nodes is fast and Union is slow 
  */
 
 public class QuickFindDemo {
