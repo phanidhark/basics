@@ -10,7 +10,7 @@ import java.util.Random;
  * we can use alternative logic random generated numbers and sort them in order , but this will not be linear
  * as it contains sorting logic extra
  */
-public class RandomShuffleDemo {
+public class RandomShuffleDemo { 
 	public static void shuffle(String[] input){
 		for (int i = 0; i < input.length; i++) {
 			exchange(input, i ,randomNumber(i));
