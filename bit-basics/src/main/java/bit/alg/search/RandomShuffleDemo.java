@@ -31,7 +31,7 @@ public class RandomShuffleDemo {
 	public static int randomNumber(int i){
 		int randomNumber = (int)(Math.random()*i);
 		//int randomNumber = new Random().nextInt(20);
-		System.out.println(randomNumber);
+		//System.out.println(randomNumber);
 		return randomNumber;
 	}
 	
