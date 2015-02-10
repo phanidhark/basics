@@ -1,4 +1,4 @@
-package bit.alg.search;
+package bit.alg.sort;
 
 /**
  * 
